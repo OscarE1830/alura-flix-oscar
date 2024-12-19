@@ -1,0 +1,100 @@
+{
+  "videos": [
+    {
+      "area": "backend",
+      "imagen": "https://i.ytimg.com/vi/GJfOSoaXk4s/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBXZVPLM2ImD_Nt2QSlGFdXIvbMig",
+      "titulo": "Descubriendo el mundo de JavaScript: Qué es?",
+      "descripcion": "prueba de video nuevo",
+      "link": "https://www.youtube.com/watch?v=GJfOSoaXk4s",
+      "id": "9803"
+    },
+    {
+      "area": "frontend",
+      "imagen": "https://i.ytimg.com/vi/EB4vWLzfVcI/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAlYxfbAoT5iKXjUu8jq0gtcLtQVA",
+      "titulo": "Consejos CSS con Flex-Box",
+      "descripcion": "prueba 2 de video nuevo",
+      "link": "https://www.youtube.com/watch?v=EB4vWLzfVcI",
+      "id": "d576"
+    },
+    {
+      "area": "innovacion y gestion",
+      "imagen": "https://i.ytimg.com/vi/-LmFK6skG7s/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD_voelHAi2X9jzZgzIkDOcJyB9hQ",
+      "titulo": "Aprendiendo como subir nuestros proyectos a GitHub",
+      "descripcion": "Ve cómo funciona esta famosa herramienta de colaboración muy utilizada en el universo de la tecnología y tiene el control de las diferentes versiones de tus proyectos.",
+      "link": "https://www.youtube.com/watch?v=-LmFK6skG7s",
+      "id": "a1cc"
+    },
+    {
+      "area": "frontend",
+      "imagen": "https://i.ytimg.com/vi/UuAX5azcvDQ/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLB6nwr136_0kMF4-0DNlYnncoTEoQ",
+      "titulo": "Aprendiendo a utilizar FIGMA",
+      "descripcion": "prueba 4 de video nuevo",
+      "link": "https://www.youtube.com/watch?v=UuAX5azcvDQ",
+      "id": "65f3"
+    },
+    {
+      "area": "innovacion y gestion",
+      "imagen": "https://i.ytimg.com/vi/vhwspfvI52k/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCqexH9fRQBKlGPWhCiwZvXZxuU3g",
+      "titulo": "prueba",
+      "descripcion": "¿Qué son las Softskills y por qué es tan importante desarrollarlas para posicionarse en el mercado laboral? ",
+      "link": "https://www.youtube.com/watch?v=vhwspfvI52k",
+      "id": "121d"
+    },
+    {
+      "id": "dd6b",
+      "area": "backend",
+      "imagen": "https://i.ytimg.com/vi/UNeKzI2WHgQ/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAL7q1kVazeLVQEnaHWXa8xkZFW8g",
+      "titulo": "prueba 2",
+      "descripcion": "prueba 2",
+      "link": "https://www.youtube.com/watch?v=UNeKzI2WHgQ"
+    },
+    {
+      "id": "536a",
+      "area": "backend",
+      "imagen": "https://i.ytimg.com/vi/EoPvlE85XAQ/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD80rSRC-pV7GFZ7LorycqSeDY3xA",
+      "titulo": "Simplificando tu código en Java: Conoce los enum",
+      "descripcion": "¿Escribir muchas variables del tipo constantes en Java te parece un proceso tedioso y que genera muchas líneas de código? \nEn este Alura+ la instructora Génesys Rondón nos enseña a simplificar esta tarea usando un tipo de dato especial llamado enum.",
+      "link": "https://www.youtube.com/watch?v=EoPvlE85XAQ"
+    },
+    {
+      "id": "466a",
+      "area": "frontend",
+      "imagen": "https://i.ytimg.com/vi/rpvrLaBQwgg/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBkb-PJrLWrffCvsevbaS6oMxcyhQ",
+      "titulo": "Equipo Front End ",
+      "descripcion": "¿Estás empezando tus estudios de Programación? ¿Te interesa todo lo que es la creación de Páginas Web Desarrollo de Softwares? ¿O estás pensando en cambiar de carrera y entrar a la maravillosa area de tecnología?",
+      "link": "https://www.youtube.com/watch?v=rpvrLaBQwgg"
+    },
+    {
+      "id": "ab1d",
+      "area": "frontend",
+      "imagen": "https://i.ytimg.com/vi/RLZ7-ZfkwOE/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBnmk5fAfg0ZwVOySdap9zEGiEdvQ",
+      "titulo": "¿Por qué utilizar React con Typescript?",
+      "descripcion": "¿React con JavaScript o React con TypeScript? En este video, te mostramos las diferencias clave entre usar React con JavaScript y hacerlo con TypeScript. Exploramos las ventajas de cada enfoque, cómo impactan en la productividad y la calidad del código, y cuál puede ser la mejor opción para tu proyecto. ¡Descubre cuál es ideal para ti!",
+      "link": "https://www.youtube.com/watch?v=RLZ7-ZfkwOE&pp=ygULYWx1cmEgbGF0YW0%3D"
+    },
+    {
+      "id": "217e",
+      "area": "backend",
+      "imagen": "https://i.ytimg.com/vi/Z024LSCMqFk/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLA5BUMKzLIu2LB5sjpsll2QdVLL_g",
+      "titulo": "Explorando el poder del Back-End en el Desarrollo Web",
+      "descripcion": "Backend.",
+      "link": "https://www.youtube.com/watch?v=Z024LSCMqFk&pp=ygUTYWx1cmEgbGF0YW0gYmFja2VuZA%3D%3D"
+    },
+    {
+      "id": "7e3b",
+      "area": "innovacion y gestion",
+      "imagen": "https://i.ytimg.com/vi/O4cxvckONRE/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCFDEa_6L1fOClUwifW2QwrHOLRgA",
+      "titulo": "¿Cuál Herramienta de Gestión de Proyectos es la Mejor para Ti?",
+      "descripcion": "Ellen Pimentel comparte su trayectoria en la gestión de proyectos, comenzando desde su formación en Turismo hasta su transición a la programación y su rol actual en Alura.\n\nElla destaca el uso de herramientas como Notion y ClickUp, enfatizando que, aunque son útiles, lo más importante son las habilidades de planificación y organización.",
+      "link": "https://www.youtube.com/watch?v=O4cxvckONRE&pp=ygUgYWx1cmEgbGF0YW0gaW5ub3ZhY2lvbiB5IGdlc3Rpb24%3D"
+    },
+    {
+      "id": "c306",
+      "area": "innovacion y gestion",
+      "imagen": "https://i.ytimg.com/vi/7lnmW8fB0nM/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC1Zgf_2baW0u3MDF1TCG8iIdcHUg",
+      "titulo": "¿Cuáles son las soft y hard skills necesarias para trabajar con tecnología?",
+      "descripcion": "¿Quieres saber cuáles son las Soft Skills más buscadas en el área de tecnología? En este video nuestras invitadas comentan sobre las Soft Skills y Hard Skills necesárias para trabajar con tencología.",
+      "link": "https://www.youtube.com/watch?v=7lnmW8fB0nM&pp=ygUgYWx1cmEgbGF0YW0gaW5ub3ZhY2lvbiB5IGdlc3Rpb24%3D"
+    }
+  ]
+}
