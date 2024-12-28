@@ -19,3 +19,26 @@
     font-size: 20px;
     margin-left: 10px;
   }
+
+
+  /* Media Queries para tablets (min-width: 600px) */
+@media (min-width: 600px) {
+  .gContainer textarea {
+    font-size: 18px; 
+  }
+
+  .gContainer textarea::placeholder {
+    font-size: 18px;  
+  }
+}
+
+/* Media Queries para móviles (max-width: 600px) */
+@media (max-width: 600px) {
+  .gContainer textarea {
+    font-size: 16px;  
+  }
+
+  .gContainer textarea::placeholder {
+    font-size: 16px;
+  }
+}

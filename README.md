@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Challenge ONE-ORACLE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center" >
+     <img width="300"  src="./src/components/Header/logo.png">
+</p>
 
-## Available Scripts
+# <h1 align="center"><strong>¡AluraFlix Oscar Andrade!</strong></h1> 
+---
 
-In the project directory, you can run:
+## Descripción del proyecto📋
 
-### `npm start`
+Aluraflix es una plataforma diseñada para gestionar vídeos, con funcionalidades como listar, registrar, actualizar y eliminar videos, implementando React con JavaScript. Se usa en ésta librería, tales como componentización, uso de hooks, consumo de API, rutas entre otros. simulando un sitio de streaming con videos del canal Alura de Youtube, organizados por categorías(FronteEnd, BackEnd, Innovación y Gestión).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img src="./public/area-scrollbar.png" width="800" alt="imagen de eliminar">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Modo de uso📌
 
-### `npm test`
+### Cargar Proyecto y Base de datos **json-server**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para cargar el proyecto de react y la base de datos de json-server de manera local, debe ejecutar en una terminal los siguientes comandos uno a uno, y así podrá visualizar en pantalla la página y los videos rederizados:
 
-### `npm run build`
+>```
+> npm start
+> json-server --watch db.json --port 3001
+>```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Sin embargo, en este link podrá visualizar en linea el demo del proyecto con los productos cargados ya que está la base de datos en Mockapi:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+https://alura-geek-oscar-andrade.vercel.app/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
+### Agregar un video
 
-### `npm run eject`
+En el Header de la página parte derecha tenemos un botón de Nuevo video que dirige a una nueva pagina donde tenemos un formulario con varios campos requeridos para la creación e ingreso de un video con *Título*, *Categoría*, *Imágen*, *Video* y *Descripción* y al dar click al botón `Guardar`, se cargará el nuevo video y se redireccionará a la página Home donde podrá verse el video en la categoría seleccionada.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<img src="./public/header-banner-nuevovideo.png" width="800" alt="imagen de header">
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img src="./public/nuevovideo.png" width="800" alt="imagen de nuevo video">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Eliminar un video
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+En la parte inferior izquierda de la tarjeta del video, se podrá ver el icono de <img src="./src/components/Area/CardVideo/eliminar.png" width="15" alt="icono eliminar"> que seleccionado eliminará automáticamente el video.
 
-## Learn More
+<img src="./public/eliminar.png" width="800" alt="imagen de eliminar">
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Editar un video
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+En la parte inferior derecha de la tarjeta del video, se podrá ver el icono de <img src="./src/components/Area/CardVideo/editar.png" width="15" alt="icono editar"> que seleccionado abrirá el modal automáticamente que mostrará un formulario con toda la información dispuesta para corregir.
 
-### Code Splitting
+<img src="./public/editar-modal.png" width="800" alt="imagen de editar modal">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<img src="./public/modal.png" width="800" alt="imagen de modal">
 
-### Analyzing the Bundle Size
+## Modo Responsivo🔍
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Para dispositivos móvil hasta `600px`, tablet entre `600px a 1024px` y desktop mayores a `1024px`.
 
-### Making a Progressive Web App
+---
+## Tecnologías utilizadas💡
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- ![Visual Studio Code](https://img.shields.io/badge/Visual_Studio_Code-blue?logo=VSCode)
+- ![React](https://img.shields.io/badge/React--orange?logo=react&logoColor=61DAFB)
+- ![JavaScript](https://img.shields.io/badge/JavaScript--orange?logo=javascript)
+- ![HTML5](https://img.shields.io/badge/HTML--orange?logo=html5)
+- ![CSS](https://img.shields.io/badge/CSS--orange?logo=css3&logoColor=blue)
+- ![GitHub](https://img.shields.io/badge/GitHub--orange?logo=github)
+---
+## Desarrollador del Proyecto👨‍💻
 
-### Advanced Configuration
+<h1 align="center"><strong>Oscar Eduardo Andrade Reyes</strong></h1>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div align="center">
+<table>
+  <tr>
+    <td><img src="./public/fotodesaroollador.jpg" width="115" alt="Foto del desarrollador"></td>
+    <td><img src="./public/bandera-colombia.png" alt="Bandera de Colombia"></td>
+  </tr>
+</table>
+</div>

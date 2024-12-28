@@ -65,36 +65,36 @@
       "link": "https://www.youtube.com/watch?v=rpvrLaBQwgg"
     },
     {
-      "id": "ab1d",
       "area": "frontend",
       "imagen": "https://i.ytimg.com/vi/RLZ7-ZfkwOE/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBnmk5fAfg0ZwVOySdap9zEGiEdvQ",
       "titulo": "¿Por qué utilizar React con Typescript?",
       "descripcion": "¿React con JavaScript o React con TypeScript? En este video, te mostramos las diferencias clave entre usar React con JavaScript y hacerlo con TypeScript. Exploramos las ventajas de cada enfoque, cómo impactan en la productividad y la calidad del código, y cuál puede ser la mejor opción para tu proyecto. ¡Descubre cuál es ideal para ti!",
-      "link": "https://www.youtube.com/watch?v=RLZ7-ZfkwOE&pp=ygULYWx1cmEgbGF0YW0%3D"
+      "link": "https://www.youtube.com/watch?v=RLZ7-ZfkwOE",
+      "id": "ab1d"
     },
     {
-      "id": "217e",
       "area": "backend",
       "imagen": "https://i.ytimg.com/vi/Z024LSCMqFk/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLA5BUMKzLIu2LB5sjpsll2QdVLL_g",
       "titulo": "Explorando el poder del Back-End en el Desarrollo Web",
       "descripcion": "Backend.",
-      "link": "https://www.youtube.com/watch?v=Z024LSCMqFk&pp=ygUTYWx1cmEgbGF0YW0gYmFja2VuZA%3D%3D"
+      "link": "https://www.youtube.com/watch?v=Z024LSCMqFk",
+      "id": "217e"
     },
     {
-      "id": "7e3b",
       "area": "innovacion y gestion",
       "imagen": "https://i.ytimg.com/vi/O4cxvckONRE/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCFDEa_6L1fOClUwifW2QwrHOLRgA",
       "titulo": "¿Cuál Herramienta de Gestión de Proyectos es la Mejor para Ti?",
       "descripcion": "Ellen Pimentel comparte su trayectoria en la gestión de proyectos, comenzando desde su formación en Turismo hasta su transición a la programación y su rol actual en Alura.\n\nElla destaca el uso de herramientas como Notion y ClickUp, enfatizando que, aunque son útiles, lo más importante son las habilidades de planificación y organización.",
-      "link": "https://www.youtube.com/watch?v=O4cxvckONRE&pp=ygUgYWx1cmEgbGF0YW0gaW5ub3ZhY2lvbiB5IGdlc3Rpb24%3D"
+      "link": "https://www.youtube.com/watch?v=O4cxvckONRE",
+      "id": "7e3b"
     },
     {
-      "id": "c306",
       "area": "innovacion y gestion",
       "imagen": "https://i.ytimg.com/vi/7lnmW8fB0nM/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLC1Zgf_2baW0u3MDF1TCG8iIdcHUg",
       "titulo": "¿Cuáles son las soft y hard skills necesarias para trabajar con tecnología?",
       "descripcion": "¿Quieres saber cuáles son las Soft Skills más buscadas en el área de tecnología? En este video nuestras invitadas comentan sobre las Soft Skills y Hard Skills necesárias para trabajar con tencología.",
-      "link": "https://www.youtube.com/watch?v=7lnmW8fB0nM&pp=ygUgYWx1cmEgbGF0YW0gaW5ub3ZhY2lvbiB5IGdlc3Rpb24%3D"
+      "link": "https://www.youtube.com/watch?v=7lnmW8fB0nM",
+      "id": "c306"
     }
   ]
 }

@@ -6,3 +6,17 @@
   .img > img {
     width: 100vh;
   }
+
+  /* Media Queries para tablets (min-width: 600px) */
+@media (min-width: 600px) {
+  .img > img {
+    width: 70vh;  /* Ajusta el ancho de la imagen para tablets */
+  }
+}
+
+/* Media Queries para móviles (max-width: 600px) */
+@media (max-width: 600px) {
+  .img > img {
+    width: 100%;  /* Ajusta el ancho de la imagen para móviles */
+  }
+}

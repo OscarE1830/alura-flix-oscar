@@ -5,7 +5,7 @@
     align-items: center;
     height: 125px;
     background-color: #0B1528;
-    border-top: 4px solid var(--Blue, rgba(34, 113, 209, 1));
+    border-top: 4px solid var(--azul, #2271d1);
   }
   
   .footerContainer img {
@@ -16,3 +16,125 @@
     font-family: "Roboto", sans-serif;
     color: #257EB5;
   }
+
+  .homeAct,
+  .homeInact,
+  .agregarAct,
+  .agregarInact,
+  .nameHome{
+    display:none;
+  }
+
+  /* Media Queries para tablets (min-width: 600px) */
+@media (min-width: 600px) and (max-width: 1024px) {
+  .footerContainer {
+    height: 100px;  
+  }
+
+  .footerContainer p {
+    font-size: 14px; 
+  }
+
+  .homeAct,
+  .homeInact,
+  .agregarAct,
+  .agregarInact,
+  .nameHome{
+    display:none;
+  }
+}
+
+/* Media Queries para móviles (max-width: 600px) */
+@media (max-width: 599px) {
+  .footerContainer {
+    height: 100px; 
+    display: flex;
+    flex-direction:row ;
+    justify-content:space-around;
+  }
+
+  .footerContainer p,
+  .footerContainer .logo {
+    display:none;
+  }
+
+  .homeContainer{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:155px;
+    height:54px;
+    color: var(--blanco);
+    font-family:"Source Sans 3", sans-serif;
+    font-size:20px;
+    font-weight:900;
+    text-decoration:none;
+    border: 2px solid var(--blanco);
+    border-radius: 50px;
+    gap:10px;
+  }
+  
+  .homeContainer:hover{
+    /* color: var(--azul, #2271d1); */
+    border: 2px solid var(--azul, #2271d1);
+    box-shadow: 0px 0px 12px 4px #2271d1 inset;
+  }
+
+  .homeAct,
+  .homeInact,
+  .agregarAct,
+  .agregarInact,
+  .nameHome{
+    display:block;
+  }
+
+ .homeContainer > .nameHome{
+    display:block;
+    color:var(--blanco);
+ }
+  
+ .nameHome:hover{
+    color: var(--azul);
+  }
+
+  .homeAct,
+  .agregarAct{
+    display:none;
+  }
+
+  .homeContainer:hover .homeAct{
+    display:block; 
+  }
+  
+  .iconContainer:hover .agregarAct{
+    display:block;
+  }
+
+  .homeContainer:hover .homeInact {
+    display:none;
+  }
+
+  .iconContainer:hover .agregarInact{
+    display:none;
+  }
+
+  .homeAct,
+  .homeInact{
+    width:26px;
+    height:31px;
+    background: transparent;
+  }
+
+
+  .agregarAct,
+  .agregarInact{
+    width:45px;
+    height:45px;
+    background: transparent;
+    outline:none;
+  }
+}
+
+
+
+

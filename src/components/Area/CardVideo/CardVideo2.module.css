@@ -1,0 +1,40 @@
+
+  .imgBx {
+    width: 432px;
+    height: auto;
+    border:5px solid red;
+    
+  }
+
+  .imgBx img {
+    width: 100%;
+    height: 242px;
+    border-bottom:5px solid red;
+    object-fit: cover;
+  }
+
+
+
+ .actionBtn {
+    display: flex;
+    justify-content: space-around;
+    padding:10px 0px;
+    width: 430px;
+    margin-top:-10px;
+    background-color:black;
+  }
+
+ .actionBtn button {
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: 800;
+    background: #45f3ff;
+    color: #222;
+    cursor: pointer;
+    opacity: 0.9;
+  }
+
+

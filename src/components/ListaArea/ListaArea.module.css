@@ -21,3 +21,20 @@
   .placeholderOption {
     color: lightgray;
   }
+
+
+  /* Media Queries para tablets (min-width: 600px) */
+@media (min-width: 600px) and (max-width: 1024px) {
+  .gContainer select {
+    font-size: 18px;  
+    height: 55px;  
+  }
+}
+
+/* Media Queries para móviles (max-width: 600px) */
+@media (max-width: 600px) {
+  .gContainer select {
+    font-size: 16px;  
+    height: 50px;  
+  }
+}

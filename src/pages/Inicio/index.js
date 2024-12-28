@@ -26,12 +26,13 @@ const Inicio = () => {
 
   const urlApi= 'https://my-json-server.typicode.com/OscarE1830/alura-flix-api/videos'
   const localApi = 'http://localhost:3001/videos'
+  const ipApi = 'http://192.168.1.4:3001/videos'
 
   useEffect(() => {
 
     async function conectApi() {
       try{
-      const videosApi = await fetch(localApi) 
+      const videosApi = await fetch(ipApi) 
       if(!videosApi.ok) throw new Error('Error al obtener los videos')
       const videosApiData = await videosApi.json()
       setVideos(videosApiData)
@@ -61,7 +62,7 @@ const Inicio = () => {
   }
 
   const actualizarAposPut = async (videoActualizado) => {
-    const respuesta = await fetch(localApi);
+    const respuesta = await fetch(ipApi);
     const updatedVideos = await respuesta.json();
     setVideos(updatedVideos);
     setVideoSeleccionado(null);

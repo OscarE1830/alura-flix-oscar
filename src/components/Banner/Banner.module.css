@@ -3,3 +3,18 @@
     width: 100%;
     height: 580px;
   }
+
+  /* Media Queries para tablets (min-width: 600px) */
+@media (min-width: 600px) and (max-width: 1024px){
+  .banner {
+    width: 100%;
+    height: 590px; 
+  }
+}
+
+/* Media Queries para móviles (max-width: 600px) */
+@media (max-width: 600px) {
+  .banner {
+    display:none;
+  }
+}

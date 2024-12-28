@@ -16,7 +16,7 @@ const Destaques = ({ video }) => {
     display: 'flex',
     justifyContent: 'space-around',
   }
-
+  
   const imgContainer = {
     background: `url(${video.imagen})`,
     backgroundSize: 'cover',

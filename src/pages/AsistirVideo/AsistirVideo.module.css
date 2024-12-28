@@ -18,3 +18,34 @@
     height: 100%;
     width: 45%;
   }
+
+
+  /* Media Queries para tablets (min-width: 600px) */
+@media (min-width: 600px) and (max-width: 1024px) {
+  .container h1 {
+    font-size: 36px;  
+  }
+
+  .iframeContainer {
+    width: 70%;  
+  }
+}
+
+/* Media Queries para móviles (max-width: 600px) */
+@media (max-width: 600px) {
+  .container {
+    padding: 15px;  
+  }
+
+  .container h1 {
+    font-size: 30px;  
+    text-align: center;
+    margin-top:30px;
+    margin-bottom: 30px;
+  }
+
+  .iframeContainer {
+    width: 100%;  
+    height:50%;
+  }
+}

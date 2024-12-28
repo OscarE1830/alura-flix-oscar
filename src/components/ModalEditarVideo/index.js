@@ -173,7 +173,7 @@ const Limpiar = () => {
               estiloCorCampoDescripcionFormulario={estiloCorCampoDescripcionFormulario}
               estiloCorLabel={styleLabel}
             />
-            <div>
+            <div className={styles.btnContainer}>
               <BotonFormulario styleCorBoton={styleCorBoton} 
                                 estiloCorBotonHover={styleCorBotonHover} 
                                 type="submit" 
@@ -187,9 +187,9 @@ const Limpiar = () => {
               </BotonFormulario>
             </div>
           </form>
-          <form className={styles.dialogBtn} method="dialog">
+          <div className={styles.dialogBtn} >
             <button type="button" onClick={cerrar}><img src={botonCerrar} alt="icono cerrar el modal" /></button>
-          </form>
+          </div>
         </dialog>
       </>
       }

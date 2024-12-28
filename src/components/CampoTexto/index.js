@@ -9,7 +9,10 @@ const CampoTexto = (props) => {
   return(
     <div className={styles.gContainer} style={props.withCampoTexto}>
       <label style={props.estiloCorLabel}>{props.label}</label>
-      <input type={props.type} placeholder={props.placeholder} required={props.obligatorio} value={props.valor} onChange={Digitado} style={props.estiloCorCampo}/>
+      <input type={props.type} placeholder={props.placeholder} 
+              required={props.obligatorio} 
+              value={props.valor} onChange={Digitado} 
+              style={props.estiloCorCampo}/>
     </div>
   )
 }

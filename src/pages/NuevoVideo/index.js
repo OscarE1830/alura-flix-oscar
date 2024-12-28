@@ -13,6 +13,16 @@ const NuevoVideo = () => {
   const [videoPost, setVideoPost] = useState()
   const [descripcionPost, setDescripcionPost] = useState()
 
+   // Estados para los mensajes de error
+   const [errors, setErrors] = useState({
+    tituloPost: '',
+    areaPost: '',
+    imagenPost: '',
+    videoPost: '',
+    descripcionPost: '',
+  });
+
+
   async function nuevoVideoPost(area, imagen, titulo, descripcion, link) {
     try {
       const videoPostApi = await fetch('http://localhost:3001/videos', {
@@ -43,8 +53,32 @@ const NuevoVideo = () => {
 
   const navigate = useNavigate();
   
+  //Validacion del formulario
+  const validateForm = () => {
+    const newErrors = {};
+    if (!tituloPost.trim()) newErrors.tituloPost = 'El título es obligatorio';
+    if (!areaPost) newErrors.areaPost = 'La categoría es obligatoria';
+    if (!imagenPost.trim()) {
+      newErrors.imagenPost = 'El link de la imagen es obligatorio';
+    } else if (!/^https?:\/\/.+\.(jpg|jpeg|png|gif|webp)(\?.*)?$/.test(imagenPost)) {
+      newErrors.imagenPost = 'El link de la imagen no es válido';
+    }
+    if (!videoPost.trim()) {
+      newErrors.videoPost = 'El link del video es obligatorio';
+    } else if (!/^https:\/\/(www\.)?(youtube\.com|youtu\.be)\/.+$/.test(videoPost)) {
+      newErrors.videoPost = 'El link del video no es válido';
+    }
+    if (!descripcionPost.trim()) newErrors.descripcionPost = 'La descripción es obligatoria';
+
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
+
+
   const Guardar = async (evento) => {
     evento.preventDefault()
+    if (!validateForm()) return;
+
     try{
         await nuevoVideoPost(areaPost, imagenPost, tituloPost, descripcionPost, videoPost)
         setAreaPost('')
@@ -58,6 +92,20 @@ const NuevoVideo = () => {
     console.error("Error al guardar el video:", error);
     alert("Hubo un error al guardar el video. Inténtalo de nuevo.");
   }
+};
+const Limpiar = () => {
+  setAreaPost('');
+  setImagenPost('');
+  setTituloPost('');
+  setDescripcionPost('');
+  setVideoPost('');
+  setErrors({
+    tituloPost: '',
+    areaPost: '',
+    imagenPost: '',
+    videoPost: '',
+    descripcionPost: '',
+  });
 };
 
   const categoria = [
@@ -74,7 +122,7 @@ const NuevoVideo = () => {
       </section>
       <section className={styles.gContainerForm}>
         <h2>Crear Card</h2>
-        <form onSubmit={Guardar}>
+        <form onSubmit={Guardar} onReset={Limpiar}>
           <div>
             <CampoTexto
               label="Título"
@@ -83,6 +131,7 @@ const NuevoVideo = () => {
               obligatorio={true}
               Alterado={valor => setTituloPost(valor)} 
             />
+            {errors.tituloPost && <p className={styles.error}>{errors.tituloPost}</p>} 
 
             <ListaArea
               label="Categoría"
@@ -91,6 +140,7 @@ const NuevoVideo = () => {
               obligatorio={true}
               Alterado={valor => setAreaPost(valor)}
             />
+            {errors.tituloPost && <p className={styles.error}>{errors.tituloPost}</p>}
           </div>
           <div>
             <CampoTexto
@@ -99,7 +149,8 @@ const NuevoVideo = () => {
               valor={imagenPost}
               obligatorio={true}
               Alterado={valor => setImagenPost(valor)} 
-            />
+              />
+              {errors.imagenPost && <p className={styles.error}>{errors.imagenPost}</p>}
 
             <CampoTexto
               label="Video"
@@ -108,6 +159,8 @@ const NuevoVideo = () => {
               obligatorio={true}
               Alterado={valor => setVideoPost(valor)} 
             />
+            {errors.videoPost && <p className={styles.error}>{errors.videoPost}</p>}
+
           </div>
           <DescripcionFormulario
             label="Descripción"
@@ -116,7 +169,8 @@ const NuevoVideo = () => {
             obligatorio={true}
             Alterado={valor => setDescripcionPost(valor)}
           />
-          <div>
+          {errors.descripcionPost && <p className={styles.error}>{errors.descripcionPost}</p>}
+          <div className={styles.btnForm}>
             <BotonFormulario type="submit" nombre="guardar"></BotonFormulario>
             <BotonFormulario type="reset" nombre="limpar"></BotonFormulario>
           </div>

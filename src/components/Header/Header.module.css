@@ -37,3 +37,26 @@
     border: 2px solid var(--Blue, rgba(34, 113, 209, 1));
     box-shadow: 0px 0px 12px 4px rgba(34, 113, 209, 1) inset;
   }
+
+
+
+  /* Media Queries para tablets (min-width: 600px) */
+@media (min-width: 600px) and (max-width: 1024px) {
+  .headerContainer {
+    height: 100px;  
+    padding: 0px 20px;  
+  }
+  
+  .headerLink {
+    font-size: 18px;  
+    width: 160px;  
+    height: 50px; 
+  }
+}
+
+/* Media Queries para móviles (max-width: 600px) */
+@media (max-width: 600px) {
+  .headerContainer {
+    display: none;
+  }
+}
