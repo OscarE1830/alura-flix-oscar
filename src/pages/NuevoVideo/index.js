@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import CampoTexto from "../../components/CampoTexto"
 import DescripcionFormulario from "../../components/DescripcionFormulario"
 import ListaArea from "../../components/ListaArea"

@@ -1,9 +1,7 @@
 import Banner from "../../components/Banner"
 import Destaques from "../../components/Banner/Destaques"
-import styles from "./Inicio.module.css"
-//import { register } from "swiper/element/bundle"
+//import styles from "./Inicio.module.css" importacion no usada
 import { Swiper, SwiperSlide } from "swiper/react"
-//import { Autoplay } from "swiper/modules"
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
 
 //register
@@ -24,15 +22,15 @@ const Inicio = () => {
   const [innovacionVideo, setInnovacionVideo] = useState([])
   const [videoSeleccionado, setVideoSeleccionado] = useState(null)
 
-  const urlApi= 'https://my-json-server.typicode.com/OscarE1830/alura-flix-api/videos'
+  //const urlApi= 'https://my-json-server.typicode.com/OscarE1830/alura-flix-api/videos'
   const localApi = 'http://localhost:3001/videos'
-  const ipApi = 'http://192.168.1.4:3001/videos'
+  //const ipApi = 'http://192.168.1.4:3001/videos'
 
   useEffect(() => {
 
     async function conectApi() {
       try{
-      const videosApi = await fetch(ipApi) 
+      const videosApi = await fetch(localApi) 
       if(!videosApi.ok) throw new Error('Error al obtener los videos')
       const videosApiData = await videosApi.json()
       setVideos(videosApiData)
@@ -62,7 +60,7 @@ const Inicio = () => {
   }
 
   const actualizarAposPut = async (videoActualizado) => {
-    const respuesta = await fetch(ipApi);
+    const respuesta = await fetch(localApi);
     const updatedVideos = await respuesta.json();
     setVideos(updatedVideos);
     setVideoSeleccionado(null);

@@ -2,7 +2,7 @@ import styles from './CardVideo.module.css'
 import eliminarBtn from './eliminar.png'
 import editarBtn from './editar.png'
 import { Link } from 'react-router-dom'
-import { useState } from 'react';
+//import { useState } from 'react'; sistema detecta importacion no usada
 
 
 const CardVideo = ({video, eliminar, VideoSeleccionado, videoBorderColor, btnColor}) => {
@@ -38,18 +38,6 @@ const CardVideo = ({video, eliminar, VideoSeleccionado, videoBorderColor, btnCol
   };
 
   return (
-    // <div className={styles.gcontainer} >
-    //     <Link to={`video/${video.id}`}>
-    //       <div className={styles.imgContainer} style={{borderColor:videoBorderColor}} >
-    //         <img src={video.imagen} alt={video.area} className={styles.imgCard}/>
-    //       </div>
-    //     </Link>
-    //     <div className={styles.btnContainer} style={{borderColor: btnColor}} >
-    //       <button className={styles.btn} onClick={() => handleDelete(video.id)} aria-label="Eliminar video"><img src={eliminarBtn} alt='Botón de eliminar'/>ELIMINAR</button>
-    //       <button className={styles.btn} onClick={() => desplazarYSeleccionarVideo(video)} aria-label="Editar video"><img src={editarBtn} alt='Botón de editar'/>EDITAR</button>
-    //     </div>
-    // </div>
- 
     <div className={styles.gcontainer}>
       <div className={styles.imgContainer} style={{borderColor:videoBorderColor}}>
           <Link to={`video/${video.id}`}>
@@ -61,18 +49,6 @@ const CardVideo = ({video, eliminar, VideoSeleccionado, videoBorderColor, btnCol
       </div>
       </div>
     </div>
-
-  //  <div>  
-  //   <div className={styles.imgBx}>
-  //     <img src={video.imagen} alt={video.area} />
-  //       <div className={styles.actionBtn}>
-  //         <button>Follow</button>
-  //         <button>Message</button>
-  //       </div>
-  //   </div>
-  //   </div>
- 
-
   )
 }
 
