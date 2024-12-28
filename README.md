@@ -26,7 +26,7 @@ Para cargar el proyecto de react y la base de datos de json-server de manera loc
 
 Sin embargo, en este link podrá visualizar en linea el demo del proyecto con los productos cargados ya que está la base de datos en Mockapi:
 
-https://alura-geek-oscar-andrade.vercel.app/
+https://alura-flix-oscar-nadw.vercel.app/
 
 ---
 ### Agregar un video
