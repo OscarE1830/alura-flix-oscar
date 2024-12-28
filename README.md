@@ -24,7 +24,7 @@ Para cargar el proyecto de react y la base de datos de json-server de manera loc
 > json-server --watch db.json --port 3001
 >```
 
-Sin embargo, en este link podrá visualizar en linea el demo del proyecto con los productos cargados ya que está la base de datos en Mockapi:
+Sin embargo, en este link podrá visualizar en linea el demo del proyecto:
 
 https://alura-flix-oscar-nadw.vercel.app/
 
