@@ -15,7 +15,7 @@ const AsistirVideo = () => {
   const [asistirVideo, setAsistirVideo] = useState(null)
 
   useEffect(() => {
-    fetch(`http://192.168.1.4:3001/videos/${id}`)                            
+    fetch(`https://my-json-server.typicode.com/OscarE1830/alura-flix-api/videos/${id}`)                            
       .then(respuesta => {
         console.log("Respuesta de la API:", respuesta);
         
