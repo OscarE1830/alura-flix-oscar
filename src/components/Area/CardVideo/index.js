@@ -12,7 +12,7 @@ const CardVideo = ({video, eliminar, VideoSeleccionado, videoBorderColor, btnCol
     console.log("ID a eliminar: ", id); // Solo para depuración
   
     try {
-      const response = await fetch(`http://192.168.1.4:3001/videos/${id}`, {
+      const response = await fetch(`https://my-json-server.typicode.com/OscarE1830/alura-flix-api/videos/${id}`, {
         method: "DELETE",
         headers: {
           "Content-Type": "application/json",
