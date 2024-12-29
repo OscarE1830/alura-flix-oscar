@@ -25,7 +25,7 @@ const NuevoVideo = () => {
 
   async function nuevoVideoPost(area, imagen, titulo, descripcion, link) {
     try {
-      const videoPostApi = await fetch('http://localhost:3001/videos', {
+      const videoPostApi = await fetch('https://my-json-server.typicode.com/OscarE1830/alura-flix-api/videos', {
         method: "POST",
         headers: {
           "Content-type": "application/json"
