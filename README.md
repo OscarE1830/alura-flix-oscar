@@ -26,7 +26,7 @@ Para cargar el proyecto de react y la base de datos de json-server de manera loc
 
 Sin embargo, en este link podrá visualizar en linea el demo del proyecto:
 
-https://alura-flix-oscar-nadw.vercel.app/
+https://alura-flix-oscar.vercel.app/
 
 ---
 ### Agregar un video

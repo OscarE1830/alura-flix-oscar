@@ -22,7 +22,7 @@ const Inicio = () => {
   const [innovacionVideo, setInnovacionVideo] = useState([])
   const [videoSeleccionado, setVideoSeleccionado] = useState(null)
 
-  const urlApi= 'https://my-json-server.typicode.com/OscarE1830/alura-flix-api/videos'
+  const urlApi= 'https://alura-flix-oscar.vercel.app/videos'
   //const localApi = 'http://localhost:3001/videos'
  
 

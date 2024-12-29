@@ -15,7 +15,7 @@ const AsistirVideo = () => {
   const [asistirVideo, setAsistirVideo] = useState(null)
 
   useEffect(() => {
-    fetch(`https://my-json-server.typicode.com/OscarE1830/alura-flix-api/videos/${id}`)                            
+    fetch(`https://alura-flix-oscar.vercel.app/videos/${id}`)                            
       .then(respuesta => {
         console.log("Respuesta de la API:", respuesta);
         

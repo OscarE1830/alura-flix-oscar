@@ -61,7 +61,7 @@ const ModalEditarVideo = ({ video, cerrar, actualizar }) => {
 
   async function actualizarVideoPut(id, area, imagen, titulo, descripcion, link) {
     let videoPutApi
-    videoPutApi = await fetch(`https://my-json-server.typicode.com/OscarE1830/alura-flix-api/videos/${id}`, {
+    videoPutApi = await fetch(`https://alura-flix-oscar.vercel.app/videos/${id}`, {
       method: "PUT",
       headers: {
         "Content-type": "application/json"
