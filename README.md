@@ -15,16 +15,7 @@ Aluraflix es una plataforma diseñada para gestionar vídeos, con funcionalidade
 
 ## Modo de uso📌
 
-### Cargar Proyecto y Base de datos **json-server**
-
-Para cargar el proyecto de react y la base de datos de json-server de manera local, debe ejecutar en una terminal los siguientes comandos uno a uno, y así podrá visualizar en pantalla la página y los videos renderizados:
-
->```
-> npm start
-> json-server --watch db.json --port 3001
->```
-
-Sin embargo, en este link podrá visualizar en linea el demo del proyecto:
+### Demo del proyecto:
 
 https://alura-flix-oscar.vercel.app/
 
