@@ -61,7 +61,7 @@ const ModalEditarVideo = ({ video, cerrar, actualizar }) => {
 
   async function actualizarVideoPut(id, area, imagen, titulo, descripcion, link) {
     let videoPutApi
-    videoPutApi = await fetch(`https://alura-flix-oscar.vercel.app/videos/${id}`, {
+    videoPutApi = await fetch(`https://67257550c39fedae05b4cc31.mockapi.io/videos/${id}`, {
       method: "PUT",
       headers: {
         "Content-type": "application/json"

@@ -15,7 +15,7 @@ const AsistirVideo = () => {
   const [asistirVideo, setAsistirVideo] = useState(null)
 
   useEffect(() => {
-    fetch(`https://alura-flix-oscar.vercel.app/videos/${id}`)                            
+    fetch(`https://67257550c39fedae05b4cc31.mockapi.io/videos/${id}`)                            
       .then(respuesta => {
         console.log("Respuesta de la API:", respuesta);
         

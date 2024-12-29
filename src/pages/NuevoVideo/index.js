@@ -25,7 +25,7 @@ const NuevoVideo = () => {
 
   async function nuevoVideoPost(area, imagen, titulo, descripcion, link) {
     try {
-      const videoPostApi = await fetch('https://alura-flix-oscar.vercel.app/videos', {
+      const videoPostApi = await fetch('https://67257550c39fedae05b4cc31.mockapi.io/videos', {
         method: "POST",
         headers: {
           "Content-type": "application/json"

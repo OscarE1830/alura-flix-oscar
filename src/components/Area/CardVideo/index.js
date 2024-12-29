@@ -12,7 +12,7 @@ const CardVideo = ({video, eliminar, VideoSeleccionado, videoBorderColor, btnCol
     console.log("ID a eliminar: ", id); // Solo para depuración
   
     try {
-      const response = await fetch(`https://alura-flix-oscar.vercel.app/videos/${id}`, {
+      const response = await fetch(`https://67257550c39fedae05b4cc31.mockapi.io/videos/${id}`, {
         method: "DELETE",
         headers: {
           "Content-Type": "application/json",

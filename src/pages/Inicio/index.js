@@ -22,7 +22,7 @@ const Inicio = () => {
   const [innovacionVideo, setInnovacionVideo] = useState([])
   const [videoSeleccionado, setVideoSeleccionado] = useState(null)
 
-  const urlApi= 'https://alura-flix-oscar.vercel.app/videos'
+  const urlApi= 'https://67257550c39fedae05b4cc31.mockapi.io/videos'
   //const localApi = 'http://localhost:3001/videos'
  
 
