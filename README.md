@@ -17,16 +17,16 @@ Aluraflix es una plataforma diseñada para gestionar vídeos, con funcionalidade
 
 ### Cargar Proyecto y Base de datos **json-server**
 
-Para cargar el proyecto de react y la base de datos de json-server de manera local, debe ejecutar en una terminal los siguientes comandos uno a uno, y así podrá visualizar en pantalla la página y los videos rederizados:
+Para cargar el proyecto de react y la base de datos de json-server de manera local, debe ejecutar en una terminal los siguientes comandos uno a uno, y así podrá visualizar en pantalla la página y los videos renderizados:
 
 >```
 > npm start
 > json-server --watch db.json --port 3001
 >```
 
-Sin embargo, en este link podrá visualizar en linea el demo del proyecto con los productos cargados ya que está la base de datos en Mockapi:
+Sin embargo, en este link podrá visualizar en linea el demo del proyecto:
 
-https://alura-geek-oscar-andrade.vercel.app/
+https://alura-flix-oscar.vercel.app/
 
 ---
 ### Agregar un video
