@@ -24,7 +24,7 @@ const Inicio = () => {
 
   const urlApi= 'https://alura-flix-oscar.vercel.app/videos'
   //const localApi = 'http://localhost:3001/videos'
-  //const ipApi = 'http://192.168.1.4:3001/videos'
+ 
 
   useEffect(() => {
 
